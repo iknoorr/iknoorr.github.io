@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iknoor Kaur | Portfolio</title>
+  <meta name="description" content="Portfolio of Iknoor Kaur, an MBA Tech (Data Science) student in Mumbai.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗽</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@400;500&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <nav aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="mode-toggle" type="button" aria-pressed="false">3 a.m. mode</button>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Iknoor<br>Kaur</h1>
+        <p class="tagline">Data science student, storyteller, 3 a.m. conversationalist.</p>
+        <p class="clocks" aria-live="off">
+          <span>Mumbai <time id="clock-mumbai">--:--</time></span>
+          <span>New York <time id="clock-ny">--:--</time></span>
+        </p>
+      </div>
+      <figure class="hero-art">
+        <svg viewBox="0 0 600 420" role="img" aria-label="Line drawing of the New York skyline with the Empire State Building at the centre">
+          <defs>
+            <pattern id="windows" width="11" height="13" patternUnits="userSpaceOnUse">
+              <circle cx="5.5" cy="6.5" r="0.9" fill="currentColor" opacity="0.45"/>
+            </pattern>
+          </defs>
+          <circle class="moon" cx="492" cy="84" r="24" fill="none" stroke="currentColor" stroke-width="1.2"/>
+          <g fill="url(#windows)" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round">
+            <rect x="20"  y="250" width="72" height="170"/>
+            <rect x="102" y="196" width="58" height="224"/>
+            <rect x="170" y="292" width="52" height="128"/>
+            <!-- Empire State Building -->
+            <rect x="250" y="272" width="100" height="148"/>
+            <rect x="265" y="232" width="70"  height="40"/>
+            <rect x="277" y="202" width="46"  height="30"/>
+            <rect x="288" y="172" width="24"  height="30"/>
+            <rect x="295" y="152" width="10"  height="20"/>
+            <line x1="300" y1="152" x2="300" y2="96"/>
+            <!-- right side -->
+            <rect x="370" y="240" width="60" height="180"/>
+            <rect x="440" y="304" width="50" height="116"/>
+            <rect x="500" y="222" width="80" height="198"/>
+          </g>
+          <line x1="0" y1="420" x2="600" y2="420" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        <figcaption>My favourite place: New York.</figcaption>
+      </figure>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="section-body about-body">
+        <p class="lede">I am Iknoor Kaur, a little unique in my own way. I love going to the depths and lengths of things, be it my work or my relationships. I'm a little clumsy, but I have a knack for knowing what goes on around in the world.</p>
+        <p>I'll always be down for a conversation at 3 a.m., because from taking the boldest career decisions to decoding your deepest mess, that's when it happens.</p>
+        <p>I am an engineering student pursuing an MBA Tech in Data Science, with a strong inclination towards analytical thinking and problem-solving. I bring a blend of technical knowledge and business acumen, along with strengths in communication, marketing and creative ideation. I actively seek new experiences, challenge myself across diverse domains, and keep looking for opportunities that help me grow and widen my perspective.</p>
+
+        <h3>Education</h3>
+        <ul class="rows">
+          <li>
+            <div>
+              <strong>MBA Tech, Data Science</strong>
+              <span>Mukesh Patel School of Technology Management and Engineering, NMIMS, Mumbai</span>
+            </div>
+            <span class="meta">Class of 2029<br>CGPA 8.58 / 10</span>
+          </li>
+          <li>
+            <div>
+              <strong>Class 12 (CBSE)</strong>
+              <span>Sant Gyaneshwar Modern School, Delhi</span>
+            </div>
+            <span class="meta">2024<br>89.7%</span>
+          </li>
+          <li>
+            <div>
+              <strong>Class 10 (CBSE)</strong>
+              <span>The Lawrence School, Sanawar, Himachal Pradesh</span>
+            </div>
+            <span class="meta">2022<br>98.9%</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <h2>Work</h2>
+      <div class="section-body">
+
+        <h3>Projects</h3>
+        <ul class="rows">
+          <li>
+            <div>
+              <strong>Published research paper</strong>
+              <span><em>A Two-Track Study of Interpretable Machine Learning and Efficient Transformers for Student and Social Media Depression Analysis</em>, published in the International Journal of Artificial Intelligence and Machine Learning.</span>
+              <a href="https://www.svedbergopen.com/index.php/ijaiml/article/view/1876" target="_blank" rel="noopener">Read the paper</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>ACE Hackathon, 1st place</strong>
+              <span>Won the intra-college hackathon by building a prototype of a SaaS-based University Management Model.</span>
+              <a href="https://www.loom.com/share/06cac92dfce0464f870b8559cb967540" target="_blank" rel="noopener">Watch the demo video</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>Smart India Hackathon</strong>
+              <span>Took part in the preliminary round of India's national hackathon.</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>Community service</strong>
+              <span>Volunteered with the Vishal Education and Charitable Trust in Delhi.</span>
+            </div>
+          </li>
+        </ul>
+
+        <h3>Experience</h3>
+        <ul class="rows">
+          <li>
+            <div>
+              <strong>Sub-Head, Research and Development</strong>
+              <span>MPSTME Student Council. Researching, reviewing and summarising the agendas for the events of Social Conclave Fest'27.</span>
+            </div>
+            <span class="meta">2026 to 2027</span>
+          </li>
+          <li>
+            <div>
+              <strong>Content Strategist and Management</strong>
+              <span>Buzzinga. Helped build brand strategies, wrote content, and worked on the content calendar.</span>
+            </div>
+            <span class="meta">2026</span>
+          </li>
+          <li>
+            <div>
+              <strong>Sales Lead</strong>
+              <span>Designare, one of India's largest design communities. Led sales and partnerships, represented the community at design events in several cities, and helped run events on the ground.</span>
+            </div>
+            <span class="meta">2025 to 2026</span>
+          </li>
+          <li>
+            <div>
+              <strong>Senior Executive</strong>
+              <span>MPSTME Student Council. Helped plan and run Sattva'25 and the Social Conclave'25.</span>
+            </div>
+            <span class="meta">2024 to 2025</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="section-body">
+        <dl class="skills">
+          <div>
+            <dt>Data and tech</dt>
+            <dd>Python, R, MySQL, C++, Power BI, Tableau, Excel</dd>
+          </div>
+          <div>
+            <dt>Marketing and sales</dt>
+            <dd>Brand communication, social media marketing, event coordination, client acquisition</dd>
+          </div>
+          <div>
+            <dt>Communication</dt>
+            <dd>Presentations, public speaking, networking, building relationships with stakeholders</dd>
+          </div>
+          <div>
+            <dt>Leadership</dt>
+            <dd>Planning, delegating and delivering under tight deadlines; leading student-run initiatives</dd>
+          </div>
+          <div>
+            <dt>Tools</dt>
+            <dd>MS Office, Canva, Google Workspace</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- INTERESTS -->
+    <section id="interests" class="section">
+      <h2>Interests</h2>
+      <div class="section-body">
+        <ul class="interests">
+          <li><strong>Dancing</strong><span>The one place I stop overthinking.</span></li>
+          <li><strong>Art</strong><span>Looking at it, making it, talking about it.</span></li>
+          <li><strong>Café hunting</strong><span>Always on the lookout for the next good one.</span></li>
+          <li><strong>Food experiments</strong><span>Recipes are suggestions.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="section-body">
+        <p class="lede">Want to talk about work, ideas, or anything that can't wait until morning? Write to me.</p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:iknoorrawal05@gmail.com">iknoorrawal05@gmail.com</a></li>
+          <li><span>Instagram</span><a href="https://www.instagram.com/iknoor.kaurr" target="_blank" rel="noopener">@iknoor.kaurr</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Iknoor Kaur, Mumbai. Built by hand with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
